@@ -9,13 +9,13 @@
 /* Begin PBXBuildFile section */
 		92989A9927550BCC008770D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92989A9827550BCC008770D7 /* AppDelegate.swift */; };
 		92989A9B27550BCC008770D7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92989A9A27550BCC008770D7 /* SceneDelegate.swift */; };
-		92989A9D27550BCC008770D7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92989A9C27550BCC008770D7 /* ViewController.swift */; };
-		92989AA027550BCC008770D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92989A9E27550BCC008770D7 /* Main.storyboard */; };
 		92989AA227550BDB008770D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92989AA127550BDB008770D7 /* Assets.xcassets */; };
 		92989AA527550BDB008770D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92989AA327550BDB008770D7 /* LaunchScreen.storyboard */; };
 		92989AB027550BDC008770D7 /* Agnel_DemosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92989AAF27550BDC008770D7 /* Agnel_DemosTests.swift */; };
 		92989ABA27550BDC008770D7 /* Agnel_DemosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92989AB927550BDC008770D7 /* Agnel_DemosUITests.swift */; };
 		92989ABC27550BDC008770D7 /* Agnel_DemosUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92989ABB27550BDC008770D7 /* Agnel_DemosUITestsLaunchTests.swift */; };
+		92989ACA27550C4A008770D7 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92989AC827550C4A008770D7 /* HomeViewController.swift */; };
+		92989ACB27550C4A008770D7 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92989AC927550C4A008770D7 /* HomeViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +39,6 @@
 		92989A9527550BCC008770D7 /* Agnel Demos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Agnel Demos.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		92989A9827550BCC008770D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		92989A9A27550BCC008770D7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		92989A9C27550BCC008770D7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		92989A9F27550BCC008770D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		92989AA127550BDB008770D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		92989AA427550BDB008770D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		92989AA627550BDB008770D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +47,8 @@
 		92989AB527550BDC008770D7 /* Agnel DemosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Agnel DemosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		92989AB927550BDC008770D7 /* Agnel_DemosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Agnel_DemosUITests.swift; sourceTree = "<group>"; };
 		92989ABB27550BDC008770D7 /* Agnel_DemosUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Agnel_DemosUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		92989AC827550C4A008770D7 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		92989AC927550C4A008770D7 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +99,10 @@
 		92989A9727550BCC008770D7 /* Agnel Demos */ = {
 			isa = PBXGroup;
 			children = (
+				92989ACD27550E60008770D7 /* Demos */,
+				92989ACC27550E57008770D7 /* Controller */,
 				92989A9827550BCC008770D7 /* AppDelegate.swift */,
 				92989A9A27550BCC008770D7 /* SceneDelegate.swift */,
-				92989A9C27550BCC008770D7 /* ViewController.swift */,
-				92989A9E27550BCC008770D7 /* Main.storyboard */,
 				92989AA127550BDB008770D7 /* Assets.xcassets */,
 				92989AA327550BDB008770D7 /* LaunchScreen.storyboard */,
 				92989AA627550BDB008770D7 /* Info.plist */,
@@ -125,6 +125,30 @@
 				92989ABB27550BDC008770D7 /* Agnel_DemosUITestsLaunchTests.swift */,
 			);
 			path = "Agnel DemosUITests";
+			sourceTree = "<group>";
+		};
+		92989ACC27550E57008770D7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				92989AC827550C4A008770D7 /* HomeViewController.swift */,
+				92989AC927550C4A008770D7 /* HomeViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		92989ACD27550E60008770D7 /* Demos */ = {
+			isa = PBXGroup;
+			children = (
+				92989ACE27550E6A008770D7 /* Demo4 */,
+			);
+			path = Demos;
+			sourceTree = "<group>";
+		};
+		92989ACE27550E6A008770D7 /* Demo4 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Demo4;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +257,7 @@
 			files = (
 				92989AA527550BDB008770D7 /* LaunchScreen.storyboard in Resources */,
 				92989AA227550BDB008770D7 /* Assets.xcassets in Resources */,
-				92989AA027550BCC008770D7 /* Main.storyboard in Resources */,
+				92989ACB27550C4A008770D7 /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +282,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				92989A9D27550BCC008770D7 /* ViewController.swift in Sources */,
 				92989A9927550BCC008770D7 /* AppDelegate.swift in Sources */,
 				92989A9B27550BCC008770D7 /* SceneDelegate.swift in Sources */,
+				92989ACA27550C4A008770D7 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +321,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		92989A9E27550BCC008770D7 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				92989A9F27550BCC008770D7 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		92989AA327550BDB008770D7 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -441,9 +457,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Agnel Demos/Info.plist";
+				INFOPLIST_KEY_NSMainNibFile = HomeViewController;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -468,9 +484,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Agnel Demos/Info.plist";
+				INFOPLIST_KEY_NSMainNibFile = HomeViewController;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
