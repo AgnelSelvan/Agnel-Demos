@@ -1,0 +1,623 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		92989A9927550BCC008770D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92989A9827550BCC008770D7 /* AppDelegate.swift */; };
+		92989A9B27550BCC008770D7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92989A9A27550BCC008770D7 /* SceneDelegate.swift */; };
+		92989A9D27550BCC008770D7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92989A9C27550BCC008770D7 /* ViewController.swift */; };
+		92989AA027550BCC008770D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92989A9E27550BCC008770D7 /* Main.storyboard */; };
+		92989AA227550BDB008770D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92989AA127550BDB008770D7 /* Assets.xcassets */; };
+		92989AA527550BDB008770D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92989AA327550BDB008770D7 /* LaunchScreen.storyboard */; };
+		92989AB027550BDC008770D7 /* Agnel_DemosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92989AAF27550BDC008770D7 /* Agnel_DemosTests.swift */; };
+		92989ABA27550BDC008770D7 /* Agnel_DemosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92989AB927550BDC008770D7 /* Agnel_DemosUITests.swift */; };
+		92989ABC27550BDC008770D7 /* Agnel_DemosUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92989ABB27550BDC008770D7 /* Agnel_DemosUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		92989AAC27550BDC008770D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92989A8D27550BCC008770D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92989A9427550BCC008770D7;
+			remoteInfo = "Agnel Demos";
+		};
+		92989AB627550BDC008770D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92989A8D27550BCC008770D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92989A9427550BCC008770D7;
+			remoteInfo = "Agnel Demos";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		92989A9527550BCC008770D7 /* Agnel Demos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Agnel Demos.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		92989A9827550BCC008770D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		92989A9A27550BCC008770D7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		92989A9C27550BCC008770D7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		92989A9F27550BCC008770D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		92989AA127550BDB008770D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		92989AA427550BDB008770D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		92989AA627550BDB008770D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92989AAB27550BDC008770D7 /* Agnel DemosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Agnel DemosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		92989AAF27550BDC008770D7 /* Agnel_DemosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Agnel_DemosTests.swift; sourceTree = "<group>"; };
+		92989AB527550BDC008770D7 /* Agnel DemosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Agnel DemosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		92989AB927550BDC008770D7 /* Agnel_DemosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Agnel_DemosUITests.swift; sourceTree = "<group>"; };
+		92989ABB27550BDC008770D7 /* Agnel_DemosUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Agnel_DemosUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		92989A9227550BCC008770D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92989AA827550BDC008770D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92989AB227550BDC008770D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		92989A8C27550BCC008770D7 = {
+			isa = PBXGroup;
+			children = (
+				92989A9727550BCC008770D7 /* Agnel Demos */,
+				92989AAE27550BDC008770D7 /* Agnel DemosTests */,
+				92989AB827550BDC008770D7 /* Agnel DemosUITests */,
+				92989A9627550BCC008770D7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		92989A9627550BCC008770D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				92989A9527550BCC008770D7 /* Agnel Demos.app */,
+				92989AAB27550BDC008770D7 /* Agnel DemosTests.xctest */,
+				92989AB527550BDC008770D7 /* Agnel DemosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		92989A9727550BCC008770D7 /* Agnel Demos */ = {
+			isa = PBXGroup;
+			children = (
+				92989A9827550BCC008770D7 /* AppDelegate.swift */,
+				92989A9A27550BCC008770D7 /* SceneDelegate.swift */,
+				92989A9C27550BCC008770D7 /* ViewController.swift */,
+				92989A9E27550BCC008770D7 /* Main.storyboard */,
+				92989AA127550BDB008770D7 /* Assets.xcassets */,
+				92989AA327550BDB008770D7 /* LaunchScreen.storyboard */,
+				92989AA627550BDB008770D7 /* Info.plist */,
+			);
+			path = "Agnel Demos";
+			sourceTree = "<group>";
+		};
+		92989AAE27550BDC008770D7 /* Agnel DemosTests */ = {
+			isa = PBXGroup;
+			children = (
+				92989AAF27550BDC008770D7 /* Agnel_DemosTests.swift */,
+			);
+			path = "Agnel DemosTests";
+			sourceTree = "<group>";
+		};
+		92989AB827550BDC008770D7 /* Agnel DemosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				92989AB927550BDC008770D7 /* Agnel_DemosUITests.swift */,
+				92989ABB27550BDC008770D7 /* Agnel_DemosUITestsLaunchTests.swift */,
+			);
+			path = "Agnel DemosUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		92989A9427550BCC008770D7 /* Agnel Demos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92989ABF27550BDC008770D7 /* Build configuration list for PBXNativeTarget "Agnel Demos" */;
+			buildPhases = (
+				92989A9127550BCC008770D7 /* Sources */,
+				92989A9227550BCC008770D7 /* Frameworks */,
+				92989A9327550BCC008770D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Agnel Demos";
+			productName = "Agnel Demos";
+			productReference = 92989A9527550BCC008770D7 /* Agnel Demos.app */;
+			productType = "com.apple.product-type.application";
+		};
+		92989AAA27550BDC008770D7 /* Agnel DemosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92989AC227550BDC008770D7 /* Build configuration list for PBXNativeTarget "Agnel DemosTests" */;
+			buildPhases = (
+				92989AA727550BDC008770D7 /* Sources */,
+				92989AA827550BDC008770D7 /* Frameworks */,
+				92989AA927550BDC008770D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92989AAD27550BDC008770D7 /* PBXTargetDependency */,
+			);
+			name = "Agnel DemosTests";
+			productName = "Agnel DemosTests";
+			productReference = 92989AAB27550BDC008770D7 /* Agnel DemosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		92989AB427550BDC008770D7 /* Agnel DemosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92989AC527550BDC008770D7 /* Build configuration list for PBXNativeTarget "Agnel DemosUITests" */;
+			buildPhases = (
+				92989AB127550BDC008770D7 /* Sources */,
+				92989AB227550BDC008770D7 /* Frameworks */,
+				92989AB327550BDC008770D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92989AB727550BDC008770D7 /* PBXTargetDependency */,
+			);
+			name = "Agnel DemosUITests";
+			productName = "Agnel DemosUITests";
+			productReference = 92989AB527550BDC008770D7 /* Agnel DemosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		92989A8D27550BCC008770D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					92989A9427550BCC008770D7 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					92989AAA27550BDC008770D7 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 92989A9427550BCC008770D7;
+					};
+					92989AB427550BDC008770D7 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 92989A9427550BCC008770D7;
+					};
+				};
+			};
+			buildConfigurationList = 92989A9027550BCC008770D7 /* Build configuration list for PBXProject "Agnel Demos" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 92989A8C27550BCC008770D7;
+			productRefGroup = 92989A9627550BCC008770D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				92989A9427550BCC008770D7 /* Agnel Demos */,
+				92989AAA27550BDC008770D7 /* Agnel DemosTests */,
+				92989AB427550BDC008770D7 /* Agnel DemosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		92989A9327550BCC008770D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92989AA527550BDB008770D7 /* LaunchScreen.storyboard in Resources */,
+				92989AA227550BDB008770D7 /* Assets.xcassets in Resources */,
+				92989AA027550BCC008770D7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92989AA927550BDC008770D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92989AB327550BDC008770D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		92989A9127550BCC008770D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92989A9D27550BCC008770D7 /* ViewController.swift in Sources */,
+				92989A9927550BCC008770D7 /* AppDelegate.swift in Sources */,
+				92989A9B27550BCC008770D7 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92989AA727550BDC008770D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92989AB027550BDC008770D7 /* Agnel_DemosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92989AB127550BDC008770D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92989ABA27550BDC008770D7 /* Agnel_DemosUITests.swift in Sources */,
+				92989ABC27550BDC008770D7 /* Agnel_DemosUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		92989AAD27550BDC008770D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92989A9427550BCC008770D7 /* Agnel Demos */;
+			targetProxy = 92989AAC27550BDC008770D7 /* PBXContainerItemProxy */;
+		};
+		92989AB727550BDC008770D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92989A9427550BCC008770D7 /* Agnel Demos */;
+			targetProxy = 92989AB627550BDC008770D7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		92989A9E27550BCC008770D7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92989A9F27550BCC008770D7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		92989AA327550BDB008770D7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92989AA427550BDB008770D7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		92989ABD27550BDC008770D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		92989ABE27550BDC008770D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		92989AC027550BDC008770D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Agnel Demos/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.Agnel-Demos";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		92989AC127550BDC008770D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Agnel Demos/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.Agnel-Demos";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		92989AC327550BDC008770D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.Agnel-DemosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Agnel Demos.app/Agnel Demos";
+			};
+			name = Debug;
+		};
+		92989AC427550BDC008770D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.Agnel-DemosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Agnel Demos.app/Agnel Demos";
+			};
+			name = Release;
+		};
+		92989AC627550BDC008770D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.Agnel-DemosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Agnel Demos";
+			};
+			name = Debug;
+		};
+		92989AC727550BDC008770D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.Agnel-DemosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Agnel Demos";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		92989A9027550BCC008770D7 /* Build configuration list for PBXProject "Agnel Demos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92989ABD27550BDC008770D7 /* Debug */,
+				92989ABE27550BDC008770D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92989ABF27550BDC008770D7 /* Build configuration list for PBXNativeTarget "Agnel Demos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92989AC027550BDC008770D7 /* Debug */,
+				92989AC127550BDC008770D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92989AC227550BDC008770D7 /* Build configuration list for PBXNativeTarget "Agnel DemosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92989AC327550BDC008770D7 /* Debug */,
+				92989AC427550BDC008770D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92989AC527550BDC008770D7 /* Build configuration list for PBXNativeTarget "Agnel DemosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92989AC627550BDC008770D7 /* Debug */,
+				92989AC727550BDC008770D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 92989A8D27550BCC008770D7 /* Project object */;
+}
