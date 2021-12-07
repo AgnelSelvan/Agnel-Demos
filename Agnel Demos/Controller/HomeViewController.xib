@@ -10,7 +10,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HomeViewController" customModule="Agnel_Demos" customModuleProvider="target">
             <connections>
-                <outlet property="tableView" destination="KRf-Ka-cBd" id="kxc-7I-ZEb"/>
+                <outlet property="screenTableView" destination="KRf-Ka-cBd" id="ppW-6c-Ley"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -19,18 +19,19 @@
             <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="70" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="KRf-Ka-cBd">
-                    <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="48" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="KRf-Ka-cBd">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                     <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <inset key="scrollIndicatorInsets" minX="0.0" minY="10" maxX="0.0" maxY="0.0"/>
                 </tableView>
             </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
             <constraints>
-                <constraint firstItem="KRf-Ka-cBd" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="4gv-W0-GjV"/>
-                <constraint firstItem="KRf-Ka-cBd" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="9El-aG-vRG"/>
-                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="KRf-Ka-cBd" secondAttribute="trailing" id="BVt-Sv-QR1"/>
-                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="KRf-Ka-cBd" secondAttribute="bottom" id="sL6-42-zEM"/>
+                <constraint firstItem="KRf-Ka-cBd" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="Eys-vX-7JJ"/>
+                <constraint firstItem="KRf-Ka-cBd" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="Gdx-t2-bi5"/>
+                <constraint firstItem="KRf-Ka-cBd" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" id="S89-WX-z8i"/>
+                <constraint firstItem="KRf-Ka-cBd" firstAttribute="height" secondItem="i5M-Pr-FkT" secondAttribute="height" id="kiY-sl-1yg"/>
             </constraints>
             <point key="canvasLocation" x="139" y="97"/>
         </view>

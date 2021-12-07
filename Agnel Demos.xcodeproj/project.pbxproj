@@ -7,6 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		182E1B7B31221088C2F4FF9C /* Pods_Agnel_DemosTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 225811CDE5DC792C6E80F311 /* Pods_Agnel_DemosTests.framework */; };
+		7F628AF9382AF4C09EB2B0B0 /* Pods_Agnel_Demos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D2456E9DA99BA7C72D32DE1 /* Pods_Agnel_Demos.framework */; };
+		9244767C275A079A0021B33F /* Proxima Nova Alt Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 92447674275A07970021B33F /* Proxima Nova Alt Light.otf */; };
+		9244767D275A079A0021B33F /* Proxima Nova Alt Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 92447674275A07970021B33F /* Proxima Nova Alt Light.otf */; };
+		9244767E275A079A0021B33F /* Proxima Nova Alt Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 92447674275A07970021B33F /* Proxima Nova Alt Light.otf */; };
+		9244767F275A079A0021B33F /* Proxima Nova Alt Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 92447675275A07970021B33F /* Proxima Nova Alt Thin.otf */; };
+		92447680275A079A0021B33F /* Proxima Nova Alt Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 92447675275A07970021B33F /* Proxima Nova Alt Thin.otf */; };
+		92447681275A079A0021B33F /* Proxima Nova Alt Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 92447675275A07970021B33F /* Proxima Nova Alt Thin.otf */; };
+		92447682275A079A0021B33F /* Proxima Nova Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 92447676275A07970021B33F /* Proxima Nova Bold.otf */; };
+		92447683275A079A0021B33F /* Proxima Nova Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 92447676275A07970021B33F /* Proxima Nova Bold.otf */; };
+		92447684275A079A0021B33F /* Proxima Nova Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 92447676275A07970021B33F /* Proxima Nova Bold.otf */; };
+		92447685275A079A0021B33F /* Proxima Nova Alt Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 92447677275A07980021B33F /* Proxima Nova Alt Bold.otf */; };
+		92447686275A079A0021B33F /* Proxima Nova Alt Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 92447677275A07980021B33F /* Proxima Nova Alt Bold.otf */; };
+		92447687275A079A0021B33F /* Proxima Nova Alt Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 92447677275A07980021B33F /* Proxima Nova Alt Bold.otf */; };
+		92447688275A079A0021B33F /* ProximaNova-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 92447678275A07980021B33F /* ProximaNova-Regular.otf */; };
+		92447689275A079A0021B33F /* ProximaNova-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 92447678275A07980021B33F /* ProximaNova-Regular.otf */; };
+		9244768A275A079A0021B33F /* ProximaNova-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 92447678275A07980021B33F /* ProximaNova-Regular.otf */; };
+		9244768B275A079A0021B33F /* Proxima Nova Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 92447679275A07990021B33F /* Proxima Nova Black.otf */; };
+		9244768C275A079A0021B33F /* Proxima Nova Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 92447679275A07990021B33F /* Proxima Nova Black.otf */; };
+		9244768D275A079A0021B33F /* Proxima Nova Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 92447679275A07990021B33F /* Proxima Nova Black.otf */; };
+		9244768E275A079A0021B33F /* Proxima Nova Extrabold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9244767A275A07990021B33F /* Proxima Nova Extrabold.otf */; };
+		9244768F275A079A0021B33F /* Proxima Nova Extrabold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9244767A275A07990021B33F /* Proxima Nova Extrabold.otf */; };
+		92447690275A079A0021B33F /* Proxima Nova Extrabold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9244767A275A07990021B33F /* Proxima Nova Extrabold.otf */; };
+		92447691275A079A0021B33F /* Proxima Nova Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9244767B275A07990021B33F /* Proxima Nova Thin.otf */; };
+		92447692275A079A0021B33F /* Proxima Nova Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9244767B275A07990021B33F /* Proxima Nova Thin.otf */; };
+		92447693275A079A0021B33F /* Proxima Nova Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9244767B275A07990021B33F /* Proxima Nova Thin.otf */; };
+		92447698275A1B710021B33F /* Demo4HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92447696275A1B710021B33F /* Demo4HomeViewController.swift */; };
+		92447699275A1B710021B33F /* Demo4HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92447697275A1B710021B33F /* Demo4HomeViewController.xib */; };
+		928657FB275FA10600F789A3 /* CategoryCVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928657F9275FA10500F789A3 /* CategoryCVCell.swift */; };
+		928657FC275FA10600F789A3 /* CategoryCVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 928657FA275FA10500F789A3 /* CategoryCVCell.xib */; };
 		92989A9927550BCC008770D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92989A9827550BCC008770D7 /* AppDelegate.swift */; };
 		92989A9B27550BCC008770D7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92989A9A27550BCC008770D7 /* SceneDelegate.swift */; };
 		92989AA227550BDB008770D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92989AA127550BDB008770D7 /* Assets.xcassets */; };
@@ -16,6 +46,34 @@
 		92989ABC27550BDC008770D7 /* Agnel_DemosUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92989ABB27550BDC008770D7 /* Agnel_DemosUITestsLaunchTests.swift */; };
 		92989ACA27550C4A008770D7 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92989AC827550C4A008770D7 /* HomeViewController.swift */; };
 		92989ACB27550C4A008770D7 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92989AC927550C4A008770D7 /* HomeViewController.xib */; };
+		92B6C5CD275DFF4900E7B869 /* Demo5CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B6C5CB275DFF4900E7B869 /* Demo5CollectionViewController.swift */; };
+		92B6C5CE275DFF4900E7B869 /* Demo5CollectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92B6C5CC275DFF4900E7B869 /* Demo5CollectionViewController.xib */; };
+		92B6C5D3275E000400E7B869 /* LabelCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B6C5D1275E000400E7B869 /* LabelCollectionViewCell.swift */; };
+		92B6C5D4275E000400E7B869 /* LabelCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92B6C5D2275E000400E7B869 /* LabelCollectionViewCell.xib */; };
+		92B6C5D8275E06D600E7B869 /* ContinueReadingCVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B6C5D6275E06D500E7B869 /* ContinueReadingCVCell.swift */; };
+		92B6C5D9275E06D600E7B869 /* ContinueReadingCVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92B6C5D7275E06D600E7B869 /* ContinueReadingCVCell.xib */; };
+		92B6C5DC275E079500E7B869 /* Modules.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B6C5DB275E079500E7B869 /* Modules.swift */; };
+		92B6C5E0275E1E4B00E7B869 /* GoalsCVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B6C5DE275E1E4A00E7B869 /* GoalsCVCell.swift */; };
+		92B6C5E1275E1E4B00E7B869 /* GoalsCVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92B6C5DF275E1E4A00E7B869 /* GoalsCVCell.xib */; };
+		92B6C5E5275E2AE500E7B869 /* ModulesCVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B6C5E3275E2AE500E7B869 /* ModulesCVCell.swift */; };
+		92B6C5E6275E2AE500E7B869 /* ModulesCVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92B6C5E4275E2AE500E7B869 /* ModulesCVCell.xib */; };
+		92B6C5EA275E30CB00E7B869 /* ModulesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B6C5E8275E30CB00E7B869 /* ModulesCell.swift */; };
+		92B6C5EB275E30CB00E7B869 /* ModulesCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92B6C5E9275E30CB00E7B869 /* ModulesCell.xib */; };
+		92C5063C2755F68C00531314 /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C5063A2755F68B00531314 /* HomeTableViewCell.swift */; };
+		92C5063D2755F68C00531314 /* HomeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92C5063B2755F68B00531314 /* HomeTableViewCell.xib */; };
+		92FBE03C275754C00013291A /* Demo4TVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FBE03A275754C00013291A /* Demo4TVC.swift */; };
+		92FBE03D275754C00013291A /* Demo4TVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92FBE03B275754C00013291A /* Demo4TVC.xib */; };
+		92FBE040275755030013291A /* Demo4TVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FBE03E275755030013291A /* Demo4TVCell.swift */; };
+		92FBE041275755030013291A /* Demo4TVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92FBE03F275755030013291A /* Demo4TVCell.xib */; };
+		92FBE04627575E570013291A /* Demo4TFTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FBE04427575E570013291A /* Demo4TFTVCell.swift */; };
+		92FBE04727575E570013291A /* Demo4TFTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92FBE04527575E570013291A /* Demo4TFTVCell.xib */; };
+		92FBE04B27577D0C0013291A /* GenderTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FBE04927577D0C0013291A /* GenderTVCell.swift */; };
+		92FBE04C27577D0C0013291A /* GenderTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92FBE04A27577D0C0013291A /* GenderTVCell.xib */; };
+		92FBE054275790690013291A /* TermsConditionTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FBE052275790690013291A /* TermsConditionTVCell.swift */; };
+		92FBE055275790690013291A /* TermsConditionTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92FBE053275790690013291A /* TermsConditionTVCell.xib */; };
+		92FBE059275793470013291A /* ButtonTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FBE057275793470013291A /* ButtonTVCell.swift */; };
+		92FBE05A275793470013291A /* ButtonTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92FBE058275793470013291A /* ButtonTVCell.xib */; };
+		9AB42E6D7EF8649A575D07D6 /* Pods_Agnel_Demos_Agnel_DemosUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBF5814427BC2DDC9A67746B /* Pods_Agnel_Demos_Agnel_DemosUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +94,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1AB253DEEF1133E9E1241D3A /* Pods-Agnel Demos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Agnel Demos.release.xcconfig"; path = "Target Support Files/Pods-Agnel Demos/Pods-Agnel Demos.release.xcconfig"; sourceTree = "<group>"; };
+		1D2456E9DA99BA7C72D32DE1 /* Pods_Agnel_Demos.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Agnel_Demos.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E31274FDF7F53F1B8D3A4FB /* Pods-Agnel DemosTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Agnel DemosTests.release.xcconfig"; path = "Target Support Files/Pods-Agnel DemosTests/Pods-Agnel DemosTests.release.xcconfig"; sourceTree = "<group>"; };
+		225811CDE5DC792C6E80F311 /* Pods_Agnel_DemosTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Agnel_DemosTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E1A6D556F0D3ABB96D7D9D8 /* Pods-Agnel Demos-Agnel DemosUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Agnel Demos-Agnel DemosUITests.release.xcconfig"; path = "Target Support Files/Pods-Agnel Demos-Agnel DemosUITests/Pods-Agnel Demos-Agnel DemosUITests.release.xcconfig"; sourceTree = "<group>"; };
+		92447674275A07970021B33F /* Proxima Nova Alt Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima Nova Alt Light.otf"; sourceTree = "<group>"; };
+		92447675275A07970021B33F /* Proxima Nova Alt Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima Nova Alt Thin.otf"; sourceTree = "<group>"; };
+		92447676275A07970021B33F /* Proxima Nova Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima Nova Bold.otf"; sourceTree = "<group>"; };
+		92447677275A07980021B33F /* Proxima Nova Alt Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima Nova Alt Bold.otf"; sourceTree = "<group>"; };
+		92447678275A07980021B33F /* ProximaNova-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-Regular.otf"; sourceTree = "<group>"; };
+		92447679275A07990021B33F /* Proxima Nova Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima Nova Black.otf"; sourceTree = "<group>"; };
+		9244767A275A07990021B33F /* Proxima Nova Extrabold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima Nova Extrabold.otf"; sourceTree = "<group>"; };
+		9244767B275A07990021B33F /* Proxima Nova Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima Nova Thin.otf"; sourceTree = "<group>"; };
+		92447696275A1B710021B33F /* Demo4HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo4HomeViewController.swift; sourceTree = "<group>"; };
+		92447697275A1B710021B33F /* Demo4HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Demo4HomeViewController.xib; sourceTree = "<group>"; };
+		928657F9275FA10500F789A3 /* CategoryCVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCVCell.swift; sourceTree = "<group>"; };
+		928657FA275FA10500F789A3 /* CategoryCVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoryCVCell.xib; sourceTree = "<group>"; };
 		92989A9527550BCC008770D7 /* Agnel Demos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Agnel Demos.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		92989A9827550BCC008770D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		92989A9A27550BCC008770D7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +124,37 @@
 		92989ABB27550BDC008770D7 /* Agnel_DemosUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Agnel_DemosUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		92989AC827550C4A008770D7 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		92989AC927550C4A008770D7 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		92B6C5CB275DFF4900E7B869 /* Demo5CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo5CollectionViewController.swift; sourceTree = "<group>"; };
+		92B6C5CC275DFF4900E7B869 /* Demo5CollectionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Demo5CollectionViewController.xib; sourceTree = "<group>"; };
+		92B6C5D1275E000400E7B869 /* LabelCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelCollectionViewCell.swift; sourceTree = "<group>"; };
+		92B6C5D2275E000400E7B869 /* LabelCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LabelCollectionViewCell.xib; sourceTree = "<group>"; };
+		92B6C5D6275E06D500E7B869 /* ContinueReadingCVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContinueReadingCVCell.swift; sourceTree = "<group>"; };
+		92B6C5D7275E06D600E7B869 /* ContinueReadingCVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ContinueReadingCVCell.xib; sourceTree = "<group>"; };
+		92B6C5DB275E079500E7B869 /* Modules.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modules.swift; sourceTree = "<group>"; };
+		92B6C5DE275E1E4A00E7B869 /* GoalsCVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalsCVCell.swift; sourceTree = "<group>"; };
+		92B6C5DF275E1E4A00E7B869 /* GoalsCVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GoalsCVCell.xib; sourceTree = "<group>"; };
+		92B6C5E3275E2AE500E7B869 /* ModulesCVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModulesCVCell.swift; sourceTree = "<group>"; };
+		92B6C5E4275E2AE500E7B869 /* ModulesCVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ModulesCVCell.xib; sourceTree = "<group>"; };
+		92B6C5E8275E30CB00E7B869 /* ModulesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModulesCell.swift; sourceTree = "<group>"; };
+		92B6C5E9275E30CB00E7B869 /* ModulesCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ModulesCell.xib; sourceTree = "<group>"; };
+		92C5063A2755F68B00531314 /* HomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
+		92C5063B2755F68B00531314 /* HomeTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeTableViewCell.xib; sourceTree = "<group>"; };
+		92FBE03A275754C00013291A /* Demo4TVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo4TVC.swift; sourceTree = "<group>"; };
+		92FBE03B275754C00013291A /* Demo4TVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Demo4TVC.xib; sourceTree = "<group>"; };
+		92FBE03E275755030013291A /* Demo4TVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo4TVCell.swift; sourceTree = "<group>"; };
+		92FBE03F275755030013291A /* Demo4TVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Demo4TVCell.xib; sourceTree = "<group>"; };
+		92FBE04427575E570013291A /* Demo4TFTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo4TFTVCell.swift; sourceTree = "<group>"; };
+		92FBE04527575E570013291A /* Demo4TFTVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Demo4TFTVCell.xib; sourceTree = "<group>"; };
+		92FBE04927577D0C0013291A /* GenderTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenderTVCell.swift; sourceTree = "<group>"; };
+		92FBE04A27577D0C0013291A /* GenderTVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GenderTVCell.xib; sourceTree = "<group>"; };
+		92FBE052275790690013291A /* TermsConditionTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsConditionTVCell.swift; sourceTree = "<group>"; };
+		92FBE053275790690013291A /* TermsConditionTVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TermsConditionTVCell.xib; sourceTree = "<group>"; };
+		92FBE057275793470013291A /* ButtonTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonTVCell.swift; sourceTree = "<group>"; };
+		92FBE058275793470013291A /* ButtonTVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ButtonTVCell.xib; sourceTree = "<group>"; };
+		9784B504EFD14C9D436B3283 /* Pods-Agnel Demos-Agnel DemosUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Agnel Demos-Agnel DemosUITests.debug.xcconfig"; path = "Target Support Files/Pods-Agnel Demos-Agnel DemosUITests/Pods-Agnel Demos-Agnel DemosUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C3A676DB4BCC325402480746 /* Pods-Agnel DemosTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Agnel DemosTests.debug.xcconfig"; path = "Target Support Files/Pods-Agnel DemosTests/Pods-Agnel DemosTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DBF5814427BC2DDC9A67746B /* Pods_Agnel_Demos_Agnel_DemosUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Agnel_Demos_Agnel_DemosUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEAA9C13F55F906265EE675F /* Pods-Agnel Demos.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Agnel Demos.debug.xcconfig"; path = "Target Support Files/Pods-Agnel Demos/Pods-Agnel Demos.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +162,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F628AF9382AF4C09EB2B0B0 /* Pods_Agnel_Demos.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +170,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				182E1B7B31221088C2F4FF9C /* Pods_Agnel_DemosTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +178,77 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9AB42E6D7EF8649A575D07D6 /* Pods_Agnel_Demos_Agnel_DemosUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		16C102EA7901D864051F3607 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DEAA9C13F55F906265EE675F /* Pods-Agnel Demos.debug.xcconfig */,
+				1AB253DEEF1133E9E1241D3A /* Pods-Agnel Demos.release.xcconfig */,
+				9784B504EFD14C9D436B3283 /* Pods-Agnel Demos-Agnel DemosUITests.debug.xcconfig */,
+				7E1A6D556F0D3ABB96D7D9D8 /* Pods-Agnel Demos-Agnel DemosUITests.release.xcconfig */,
+				C3A676DB4BCC325402480746 /* Pods-Agnel DemosTests.debug.xcconfig */,
+				1E31274FDF7F53F1B8D3A4FB /* Pods-Agnel DemosTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9244766E275A034F0021B33F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9244766F275A03590021B33F /* Fonts */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		9244766F275A03590021B33F /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				92447677275A07980021B33F /* Proxima Nova Alt Bold.otf */,
+				92447674275A07970021B33F /* Proxima Nova Alt Light.otf */,
+				92447675275A07970021B33F /* Proxima Nova Alt Thin.otf */,
+				92447679275A07990021B33F /* Proxima Nova Black.otf */,
+				92447676275A07970021B33F /* Proxima Nova Bold.otf */,
+				9244767A275A07990021B33F /* Proxima Nova Extrabold.otf */,
+				9244767B275A07990021B33F /* Proxima Nova Thin.otf */,
+				92447678275A07980021B33F /* ProximaNova-Regular.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		92447694275A1AFE0021B33F /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				92C5064A2756404600531314 /* Cell */,
+				92FBE03A275754C00013291A /* Demo4TVC.swift */,
+				92FBE03B275754C00013291A /* Demo4TVC.xib */,
+			);
+			path = Register;
+			sourceTree = "<group>";
+		};
+		92447695275A1B0F0021B33F /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				92447696275A1B710021B33F /* Demo4HomeViewController.swift */,
+				92447697275A1B710021B33F /* Demo4HomeViewController.xib */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		928657F8275FA0D300F789A3 /* CategoryCell */ = {
+			isa = PBXGroup;
+			children = (
+				928657F9275FA10500F789A3 /* CategoryCVCell.swift */,
+				928657FA275FA10500F789A3 /* CategoryCVCell.xib */,
+			);
+			path = CategoryCell;
+			sourceTree = "<group>";
+		};
 		92989A8C27550BCC008770D7 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +256,8 @@
 				92989AAE27550BDC008770D7 /* Agnel DemosTests */,
 				92989AB827550BDC008770D7 /* Agnel DemosUITests */,
 				92989A9627550BCC008770D7 /* Products */,
+				16C102EA7901D864051F3607 /* Pods */,
+				FD30E3D2CDE862A255648571 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +274,8 @@
 		92989A9727550BCC008770D7 /* Agnel Demos */ = {
 			isa = PBXGroup;
 			children = (
+				92B6C5DA275E077C00E7B869 /* Models */,
+				9244766E275A034F0021B33F /* Resources */,
 				92989ACD27550E60008770D7 /* Demos */,
 				92989ACC27550E57008770D7 /* Controller */,
 				92989A9827550BCC008770D7 /* AppDelegate.swift */,
@@ -130,6 +307,7 @@
 		92989ACC27550E57008770D7 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				92C506392755F66500531314 /* HomeCell */,
 				92989AC827550C4A008770D7 /* HomeViewController.swift */,
 				92989AC927550C4A008770D7 /* HomeViewController.xib */,
 			);
@@ -139,6 +317,7 @@
 		92989ACD27550E60008770D7 /* Demos */ = {
 			isa = PBXGroup;
 			children = (
+				92B6C5CA275DFE9200E7B869 /* Demo5 */,
 				92989ACE27550E6A008770D7 /* Demo4 */,
 			);
 			path = Demos;
@@ -147,8 +326,162 @@
 		92989ACE27550E6A008770D7 /* Demo4 */ = {
 			isa = PBXGroup;
 			children = (
+				92447695275A1B0F0021B33F /* Home */,
+				92447694275A1AFE0021B33F /* Register */,
 			);
 			path = Demo4;
+			sourceTree = "<group>";
+		};
+		92B6C5CA275DFE9200E7B869 /* Demo5 */ = {
+			isa = PBXGroup;
+			children = (
+				92B6C5CF275DFFD100E7B869 /* Cells */,
+				92B6C5CB275DFF4900E7B869 /* Demo5CollectionViewController.swift */,
+				92B6C5CC275DFF4900E7B869 /* Demo5CollectionViewController.xib */,
+			);
+			path = Demo5;
+			sourceTree = "<group>";
+		};
+		92B6C5CF275DFFD100E7B869 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				92B6C5E7275E308500E7B869 /* Modules */,
+				92B6C5E2275E2ACB00E7B869 /* ModulesTitleCell */,
+				92B6C5DD275E176E00E7B869 /* GoalsCell */,
+				92B6C5D5275E06B300E7B869 /* ContinueReadingCVCell */,
+				92B6C5D0275DFFDE00E7B869 /* LabelCVC */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		92B6C5D0275DFFDE00E7B869 /* LabelCVC */ = {
+			isa = PBXGroup;
+			children = (
+				92B6C5D1275E000400E7B869 /* LabelCollectionViewCell.swift */,
+				92B6C5D2275E000400E7B869 /* LabelCollectionViewCell.xib */,
+			);
+			path = LabelCVC;
+			sourceTree = "<group>";
+		};
+		92B6C5D5275E06B300E7B869 /* ContinueReadingCVCell */ = {
+			isa = PBXGroup;
+			children = (
+				928657F8275FA0D300F789A3 /* CategoryCell */,
+				92B6C5D6275E06D500E7B869 /* ContinueReadingCVCell.swift */,
+				92B6C5D7275E06D600E7B869 /* ContinueReadingCVCell.xib */,
+			);
+			path = ContinueReadingCVCell;
+			sourceTree = "<group>";
+		};
+		92B6C5DA275E077C00E7B869 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				92B6C5DB275E079500E7B869 /* Modules.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		92B6C5DD275E176E00E7B869 /* GoalsCell */ = {
+			isa = PBXGroup;
+			children = (
+				92B6C5DE275E1E4A00E7B869 /* GoalsCVCell.swift */,
+				92B6C5DF275E1E4A00E7B869 /* GoalsCVCell.xib */,
+			);
+			path = GoalsCell;
+			sourceTree = "<group>";
+		};
+		92B6C5E2275E2ACB00E7B869 /* ModulesTitleCell */ = {
+			isa = PBXGroup;
+			children = (
+				92B6C5E3275E2AE500E7B869 /* ModulesCVCell.swift */,
+				92B6C5E4275E2AE500E7B869 /* ModulesCVCell.xib */,
+			);
+			path = ModulesTitleCell;
+			sourceTree = "<group>";
+		};
+		92B6C5E7275E308500E7B869 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				92B6C5E8275E30CB00E7B869 /* ModulesCell.swift */,
+				92B6C5E9275E30CB00E7B869 /* ModulesCell.xib */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		92C506392755F66500531314 /* HomeCell */ = {
+			isa = PBXGroup;
+			children = (
+				92C5063A2755F68B00531314 /* HomeTableViewCell.swift */,
+				92C5063B2755F68B00531314 /* HomeTableViewCell.xib */,
+			);
+			path = HomeCell;
+			sourceTree = "<group>";
+		};
+		92C5064A2756404600531314 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				92FBE056275793100013291A /* ButtonCell */,
+				92FBE04D27578EE40013291A /* TermsCell */,
+				92FBE04827577CDE0013291A /* GenderCell */,
+				92FBE04327575E2C0013291A /* TFCell */,
+				92FBE04227575E120013291A /* TitleCell */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		92FBE04227575E120013291A /* TitleCell */ = {
+			isa = PBXGroup;
+			children = (
+				92FBE03E275755030013291A /* Demo4TVCell.swift */,
+				92FBE03F275755030013291A /* Demo4TVCell.xib */,
+			);
+			path = TitleCell;
+			sourceTree = "<group>";
+		};
+		92FBE04327575E2C0013291A /* TFCell */ = {
+			isa = PBXGroup;
+			children = (
+				92FBE04427575E570013291A /* Demo4TFTVCell.swift */,
+				92FBE04527575E570013291A /* Demo4TFTVCell.xib */,
+			);
+			path = TFCell;
+			sourceTree = "<group>";
+		};
+		92FBE04827577CDE0013291A /* GenderCell */ = {
+			isa = PBXGroup;
+			children = (
+				92FBE04927577D0C0013291A /* GenderTVCell.swift */,
+				92FBE04A27577D0C0013291A /* GenderTVCell.xib */,
+			);
+			path = GenderCell;
+			sourceTree = "<group>";
+		};
+		92FBE04D27578EE40013291A /* TermsCell */ = {
+			isa = PBXGroup;
+			children = (
+				92FBE052275790690013291A /* TermsConditionTVCell.swift */,
+				92FBE053275790690013291A /* TermsConditionTVCell.xib */,
+			);
+			path = TermsCell;
+			sourceTree = "<group>";
+		};
+		92FBE056275793100013291A /* ButtonCell */ = {
+			isa = PBXGroup;
+			children = (
+				92FBE057275793470013291A /* ButtonTVCell.swift */,
+				92FBE058275793470013291A /* ButtonTVCell.xib */,
+			);
+			path = ButtonCell;
+			sourceTree = "<group>";
+		};
+		FD30E3D2CDE862A255648571 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1D2456E9DA99BA7C72D32DE1 /* Pods_Agnel_Demos.framework */,
+				DBF5814427BC2DDC9A67746B /* Pods_Agnel_Demos_Agnel_DemosUITests.framework */,
+				225811CDE5DC792C6E80F311 /* Pods_Agnel_DemosTests.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -158,9 +491,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 92989ABF27550BDC008770D7 /* Build configuration list for PBXNativeTarget "Agnel Demos" */;
 			buildPhases = (
+				ADD4B9AE1623EE8657388720 /* [CP] Check Pods Manifest.lock */,
 				92989A9127550BCC008770D7 /* Sources */,
 				92989A9227550BCC008770D7 /* Frameworks */,
 				92989A9327550BCC008770D7 /* Resources */,
+				CEEC6FD20A38062FE7EE4796 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -175,6 +510,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 92989AC227550BDC008770D7 /* Build configuration list for PBXNativeTarget "Agnel DemosTests" */;
 			buildPhases = (
+				FF0FDD163CA4148CC603E49C /* [CP] Check Pods Manifest.lock */,
 				92989AA727550BDC008770D7 /* Sources */,
 				92989AA827550BDC008770D7 /* Frameworks */,
 				92989AA927550BDC008770D7 /* Resources */,
@@ -193,9 +529,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 92989AC527550BDC008770D7 /* Build configuration list for PBXNativeTarget "Agnel DemosUITests" */;
 			buildPhases = (
+				244F5A612519D239401E84D2 /* [CP] Check Pods Manifest.lock */,
 				92989AB127550BDC008770D7 /* Sources */,
 				92989AB227550BDC008770D7 /* Frameworks */,
 				92989AB327550BDC008770D7 /* Resources */,
+				90A7C28852ED63FC0DFD8E0F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -255,9 +593,32 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9244767F275A079A0021B33F /* Proxima Nova Alt Thin.otf in Resources */,
+				92B6C5CE275DFF4900E7B869 /* Demo5CollectionViewController.xib in Resources */,
+				92447699275A1B710021B33F /* Demo4HomeViewController.xib in Resources */,
+				92FBE04C27577D0C0013291A /* GenderTVCell.xib in Resources */,
+				92FBE055275790690013291A /* TermsConditionTVCell.xib in Resources */,
 				92989AA527550BDB008770D7 /* LaunchScreen.storyboard in Resources */,
+				92B6C5D9275E06D600E7B869 /* ContinueReadingCVCell.xib in Resources */,
+				92FBE05A275793470013291A /* ButtonTVCell.xib in Resources */,
+				92FBE041275755030013291A /* Demo4TVCell.xib in Resources */,
+				92B6C5EB275E30CB00E7B869 /* ModulesCell.xib in Resources */,
+				928657FC275FA10600F789A3 /* CategoryCVCell.xib in Resources */,
+				92FBE04727575E570013291A /* Demo4TFTVCell.xib in Resources */,
+				92447682275A079A0021B33F /* Proxima Nova Bold.otf in Resources */,
+				92B6C5E1275E1E4B00E7B869 /* GoalsCVCell.xib in Resources */,
+				92B6C5E6275E2AE500E7B869 /* ModulesCVCell.xib in Resources */,
 				92989AA227550BDB008770D7 /* Assets.xcassets in Resources */,
+				9244768E275A079A0021B33F /* Proxima Nova Extrabold.otf in Resources */,
+				9244767C275A079A0021B33F /* Proxima Nova Alt Light.otf in Resources */,
+				92B6C5D4275E000400E7B869 /* LabelCollectionViewCell.xib in Resources */,
+				92447685275A079A0021B33F /* Proxima Nova Alt Bold.otf in Resources */,
+				92447688275A079A0021B33F /* ProximaNova-Regular.otf in Resources */,
+				92447691275A079A0021B33F /* Proxima Nova Thin.otf in Resources */,
+				92C5063D2755F68C00531314 /* HomeTableViewCell.xib in Resources */,
 				92989ACB27550C4A008770D7 /* HomeViewController.xib in Resources */,
+				9244768B275A079A0021B33F /* Proxima Nova Black.otf in Resources */,
+				92FBE03D275754C00013291A /* Demo4TVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,6 +626,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92447683275A079A0021B33F /* Proxima Nova Bold.otf in Resources */,
+				92447689275A079A0021B33F /* ProximaNova-Regular.otf in Resources */,
+				9244768C275A079A0021B33F /* Proxima Nova Black.otf in Resources */,
+				92447692275A079A0021B33F /* Proxima Nova Thin.otf in Resources */,
+				92447680275A079A0021B33F /* Proxima Nova Alt Thin.otf in Resources */,
+				9244768F275A079A0021B33F /* Proxima Nova Extrabold.otf in Resources */,
+				92447686275A079A0021B33F /* Proxima Nova Alt Bold.otf in Resources */,
+				9244767D275A079A0021B33F /* Proxima Nova Alt Light.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,10 +641,121 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92447684275A079A0021B33F /* Proxima Nova Bold.otf in Resources */,
+				9244768A275A079A0021B33F /* ProximaNova-Regular.otf in Resources */,
+				9244768D275A079A0021B33F /* Proxima Nova Black.otf in Resources */,
+				92447693275A079A0021B33F /* Proxima Nova Thin.otf in Resources */,
+				92447681275A079A0021B33F /* Proxima Nova Alt Thin.otf in Resources */,
+				92447690275A079A0021B33F /* Proxima Nova Extrabold.otf in Resources */,
+				92447687275A079A0021B33F /* Proxima Nova Alt Bold.otf in Resources */,
+				9244767E275A079A0021B33F /* Proxima Nova Alt Light.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		244F5A612519D239401E84D2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Agnel Demos-Agnel DemosUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		90A7C28852ED63FC0DFD8E0F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Agnel Demos-Agnel DemosUITests/Pods-Agnel Demos-Agnel DemosUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Agnel Demos-Agnel DemosUITests/Pods-Agnel Demos-Agnel DemosUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Agnel Demos-Agnel DemosUITests/Pods-Agnel Demos-Agnel DemosUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ADD4B9AE1623EE8657388720 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Agnel Demos-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CEEC6FD20A38062FE7EE4796 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Agnel Demos/Pods-Agnel Demos-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Agnel Demos/Pods-Agnel Demos-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Agnel Demos/Pods-Agnel Demos-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF0FDD163CA4148CC603E49C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Agnel DemosTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		92989A9127550BCC008770D7 /* Sources */ = {
@@ -283,8 +763,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				92989A9927550BCC008770D7 /* AppDelegate.swift in Sources */,
+				92B6C5DC275E079500E7B869 /* Modules.swift in Sources */,
+				92B6C5E5275E2AE500E7B869 /* ModulesCVCell.swift in Sources */,
+				92FBE059275793470013291A /* ButtonTVCell.swift in Sources */,
+				92B6C5D8275E06D600E7B869 /* ContinueReadingCVCell.swift in Sources */,
+				92447698275A1B710021B33F /* Demo4HomeViewController.swift in Sources */,
+				928657FB275FA10600F789A3 /* CategoryCVCell.swift in Sources */,
+				92B6C5CD275DFF4900E7B869 /* Demo5CollectionViewController.swift in Sources */,
 				92989A9B27550BCC008770D7 /* SceneDelegate.swift in Sources */,
+				92C5063C2755F68C00531314 /* HomeTableViewCell.swift in Sources */,
+				92FBE040275755030013291A /* Demo4TVCell.swift in Sources */,
+				92FBE04B27577D0C0013291A /* GenderTVCell.swift in Sources */,
 				92989ACA27550C4A008770D7 /* HomeViewController.swift in Sources */,
+				92B6C5E0275E1E4B00E7B869 /* GoalsCVCell.swift in Sources */,
+				92FBE04627575E570013291A /* Demo4TFTVCell.swift in Sources */,
+				92FBE054275790690013291A /* TermsConditionTVCell.swift in Sources */,
+				92B6C5D3275E000400E7B869 /* LabelCollectionViewCell.swift in Sources */,
+				92FBE03C275754C00013291A /* Demo4TVC.swift in Sources */,
+				92B6C5EA275E30CB00E7B869 /* ModulesCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -450,6 +946,7 @@
 		};
 		92989AC027550BDC008770D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEAA9C13F55F906265EE675F /* Pods-Agnel Demos.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -477,6 +974,7 @@
 		};
 		92989AC127550BDC008770D7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AB253DEEF1133E9E1241D3A /* Pods-Agnel Demos.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -504,6 +1002,7 @@
 		};
 		92989AC327550BDC008770D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3A676DB4BCC325402480746 /* Pods-Agnel DemosTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -528,6 +1027,7 @@
 		};
 		92989AC427550BDC008770D7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E31274FDF7F53F1B8D3A4FB /* Pods-Agnel DemosTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -552,6 +1052,7 @@
 		};
 		92989AC627550BDC008770D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9784B504EFD14C9D436B3283 /* Pods-Agnel Demos-Agnel DemosUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -574,6 +1075,7 @@
 		};
 		92989AC727550BDC008770D7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E1A6D556F0D3ABB96D7D9D8 /* Pods-Agnel Demos-Agnel DemosUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
